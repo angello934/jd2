@@ -42,7 +42,7 @@
     width: 97%;
     margin-top: -14vh;
     height: 80vh;
-    background-image: url(https://i.imgur.com/RMQQzfw.png);
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -66,7 +66,7 @@
     transition-duration: 0.25s;
     padding-right: 70px;
 }
-.coach img{
+.coach img {
     display: inline-block;
     max-width: 100%;
 }
@@ -77,12 +77,18 @@
     width: 26%;
     min-width: 410px;
     transition-property: max-width, width, min-width;
-    transition-duration: 0.5s;
+    transition-duration: 0.25s;
+}
+
+.coach button:hover img {
+    filter: drop-shadow(0px 0px 10px rgba(255, 2, 255, 0.459));
+    transition-duration: 0.25s;
 }
 
 .hidden{
     opacity: 0%;
-    transition-duration: 0.5s;
+    background-image: url();
+    transition-duration: 0.25s;
 }
 
 .hidden .coach button{
