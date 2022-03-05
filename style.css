@@ -97,6 +97,6 @@
 }
 
 .hidden .coach{
-    margin-top: 10000px;
-    transition-duration: 20s;
+    margin-top: 200vh;
+    transition-duration: 1s;
 }
