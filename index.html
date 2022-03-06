@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
 </head>
 <body>
+    <audio autoplay id="bg-sound" loop mute>
+        <source src="https://jdnowweb-s.cdn.ubi.com/prod/main/20220131_1143/web/audio/music/M_2018_JDNow_MenuMusic.mp3">
+    </audio>
 	<section class="container-vdo">
+
+
+
+
 	    <section class="video-container-vdo">
-		    <video id="playback" src="https://www.googleapis.com/drive/v3/files/19QdVUnkSIhxq4b-gZAMS0qc7cqzJJGq7?alt=media&key=AIzaSyAx9lrSylXo3p2sgRDLz2WSGXnvePJKnw0" preload="auto"></video>
+            <video id="playback" src="https://www.googleapis.com/drive/v3/files/19QdVUnkSIhxq4b-gZAMS0qc7cqzJJGq7?alt=media&key=AIzaSyAx9lrSylXo3p2sgRDLz2WSGXnvePJKnw0" preload="auto"></video>
         </section>
-
-        
-    <section id="prvw" class="preview">
-        <div class="coach-container">
-            <div class="coach">
-                <button  onclick="start()">
-                    <img  src="https://i.imgur.com/4dObQOy.png" alt="">
-                </button>
+    
+        <section id="hud" class="hidden_hud hud-container-sct">
+            <div class="hud-container">
+                <div class="hud">
+                    <div class="line">
+                    </div>
+    
+                </div>
             </div>
+        </section> 
+        
+        <section id="prvw" class="preview">
+            <div class="coach-container">
+                <div class="coach">
+                    <button  onclick="start()">
+                        <img  src="Coach.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </section id="hud" calss="hidden hud"> 
 
-        </div>
-    </section>  
 
 
     </section>
