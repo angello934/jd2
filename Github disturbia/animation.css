@@ -1,0 +1,38 @@
+.pictograms{
+    /* background-color: rgba(0, 0, 0, 0.589); */
+    height: 100%;
+    width: 30%;
+    left: 70%;
+    right: 0;
+    position: relative;
+
+}
+
+.pictograms img{
+    position: fixed;
+    bottom: 6%;
+    transform: translateX(250%);
+}
+
+.animatepicto{
+    animation-name: pictoAnimate linear 2s;
+}
+
+@keyframes pictoAnimate{
+    0%{
+        transform: translatex(250%);
+    }
+    88%{
+        transform: translatex(0%);
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+        transform: translatex(0%);
+        transform: translatey(100%);
+        transform: scale(110%);
+        /* transform: translateY(-0.5%); */
+    }
+
+}
